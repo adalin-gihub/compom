@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: radial-gradient(circle at top, #ffffff 0%, #faf6f0 50%, #f3ece1 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 24px;
+            padding: 40px 24px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+            text-align: center;
+        }
+
+        .btn-whatsapp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 24px;
+            border-radius: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            background-color: #ffffff;
+            color: #25d366;
+            border: 2px solid #25d366;
+            box-shadow: 0 4px 14px rgba(37, 211, 102, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #25d366;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="http://wa.me/+77007811802" target="_blank" class="btn-whatsapp">
+            Перейти на WhatsApp
+        </a>
+    </div>
+</body>
+</html>
